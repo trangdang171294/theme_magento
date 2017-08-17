@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "my font 3";
+    src: url("../fonts/proximanova-regular-webfont.ttf");
+
+}
+@font-face {
+    font-family: "my font 2";
+    src: url("../fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "my font 5";
+    src:url("../fonts/ProximaNovaCond-Reg.otf");
+}
+@font-face {
+    font-family: "my font";
+    src: url("../fonts/Oswald-Bold.ttf");
+
+}
+@font-face {
+    src: url("../fonts/FontAwesome.otf");
+    src: url("../fonts/fontawesome-webfont.svg");
+    src: url("../fonts/fontawesome-webfont.eot");
+    src: url("../fonts/fontawesome-webfont.ttf");
+    src: url("../fonts/fontawesome-webfont.woff");
+    src: url("../fonts/fontawesome-webfont.woff2");
+}
+
+
+
+.Total-tools-503
+{
+    width: 100%;
+    text-align: center;
+
+    margin:0 auto
+}
+.wrap_symbol_list
+{
+    display: inline-block;
+
+}
+.symbol_list p{
+    color:#333;
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    margin-bottom:12px;
+    padding: 0 0 0 50px;
+    font-family: "my font";
+}
+ul.wrap_symbol_list
+{
+    list-style-type: none ;
+    display: inline-block;
+
+
+
+}
+.symbol_list li
+{
+    display: inline;
+
+
+}
+.wrapper_icon
+{
+    height: 44px ;
+    width: 44px;
+    border-radius: 25px;
+    float: left;
+    margin-right:10px ;
+}
+.wrapper_icon_fa
+{
+    background-color: #36619d;
+}
+.wrapper_icon_insta
+{
+    background-color: #696a6a;
+}
+.wrapper_icon_google
+{
+    background-color: #d95647;
+}
+.wrapper_icon_youtube
+{
+    background-color:#e76550
+}
+.wrapper_icon i#face
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+
+    top:9px;
+
+
+}
+.wrapper_icon i#insta
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    
+    top:9px;
+
+}
+.wrapper_icon i#plus
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+
+    top:9px;
+
+}
+.wrapper_icon i#youtube
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+
+    top:9px;
+}
+.facebooks_like
+{
+    width:66px;
+    height: 20px;
+    background-color: #4267b2;
+    margin-left: 50px ;
+    margin-top:15px;
+    border-radius: 3px;
+}
+#likes
+{
+    color: #fff;
+    margin-left: 5px;
+}
+

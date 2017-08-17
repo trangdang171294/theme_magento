@@ -1,0 +1,10 @@
+<?php $categoryId = $this->getCategoryId();?>
+<?php $category = Mage::getModel('catalog/category')->setStoreId(Mage::app()->getStore()->getId())->load($categoryId);?>
+<div class="name-description">
+<h1><?php echo $this->helper('catalog/output')->categoryAttribute($category, $category->getName(), 'name')?></h1>
+<?php if ($category->getId() && $category->getIsActive() && $_description = $category->getDescription()) : ?>
+   <p>
+    <?php echo $this->helper('catalog/output')->categoryAttribute($category, $_description, 'description')?>
+   </p>
+    </div>
+<?php endif;?>

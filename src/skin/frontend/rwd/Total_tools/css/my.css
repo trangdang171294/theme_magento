@@ -1,0 +1,2069 @@
+/*-- Global --*/
+@font-face {
+    font-family: "my font";
+    src: url("../fonts/Oswald-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: "my font 2";
+    src: url("../fonts/Oswald-Regular.ttf");
+
+}
+@font-face {
+    font-family: "my font 3";
+    src: url("../fonts/proximanova-regular-webfont.ttf");
+
+}
+@font-face
+{
+    font-family: "my font 4";
+    src: url("../fonts/Proxima Nova Extrabold.otf");
+}
+@font-face {
+    font-family: "my font 5";
+    src:url("../fonts/ProximaNovaCond-Reg.otf")
+}
+@font-face
+{
+    font-family: "my font 6";
+    src:url("../fonts/proxima-nova-medium.ttf")
+}
+@font-face {
+    font-family: "my font 7";
+    src:url("../fonts/Proxima-Nova-Semibold.ttf")
+}
+
+
+
+
+
+/* todo:fix conflic */
+#submenu-4
+{
+    top:186px;
+    left:53px;
+}
+#Total-tools-header-nav:hover #submenu-4
+{
+    display: block!important;
+}
+.Total-tools-input-box input{
+    height: 47px!important;
+    padding:0 15px 0 15px !important;
+    width: 100%!important;
+}
+.search-autocomplete:before
+{
+    display: none !important;
+}
+
+.Total-tools-captcha-image img
+{
+    display: inline-block!important;
+
+
+}
+button.Total-tools-btn-for-capcha
+{
+    display: inline-block!important;
+    position: relative;
+    bottom: 6px;
+    left:5px;
+
+}
+.Total-tools-col2-set
+{
+    width: 100%!important;
+}
+.wrapper{
+    min-height: auto !important;
+}
+/*-- todo:header --*/
+
+
+
+/*-- todo:part 1-- */
+img.Total-tools-logo-small
+{
+    display:none;
+}
+b.Total-tools-welcome-msg
+{
+  position: relative;
+    top:5px;
+
+}
+.my-header-divine
+{
+    width: 100%;
+
+}
+.my-header-divine-child1
+{
+    float: left;
+    width: 40%;
+}
+.my-header-divine-child2
+{
+    float: left;
+    width: 60%;
+}
+.my-header-divine-child2-1
+{
+    float: left;
+    width: 23%;
+}
+.my-header-divine-child2-2
+{
+    float: left;
+    width: 77%;
+}
+.Total-tools-page-header-part1
+{
+    border:0;
+    padding:0;
+    width:100%;
+    background-color: #fff;
+    display: block;
+    color:#333;
+    font-family: "my font 3" ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.6rem;
+
+
+
+
+
+}
+.Total-tools-wrap-page-header-part1
+{
+         padding:10px 20px 10px 20px;
+    margin:0 auto 0 auto;
+    clear: both;
+    content:'';
+    display: table;
+    width: 100%;
+    max-width: 1282px;
+
+    height:44px !important;
+
+
+}
+.my-contact-us-header
+{
+    list-style: none none;
+    margin:0;
+    padding:0;
+
+    display: inline-block;
+
+
+}
+.my-contact-us-header li
+{
+    padding-top:3px;
+    padding-right:10px;
+    margin:0;
+    height: 16px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+#my-contact-us-header-1st
+{
+    border-right: 1px solid #ccc;
+}
+.my-contact-us-header li a{
+    font-size: 14px;
+    line-height: 10px !important;
+    letter-spacing: 0px;
+    font-family:"my font 6";
+    color: #294d98;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.Total-tools-page-header-part1 #Total-tools-header-account .Total-tools-links-ul
+{
+    list-style: none none;
+    display: inline-block;
+
+
+}
+.Total-tools-page-header-part1 #Total-tools-header-account .Total-tools-links-ul li{
+    margin-top:3px;
+    padding-top:3px;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+
+}
+.Total-tools-page-header-part1 #Total-tools-header-account .Total-tools-links-ul li.last
+{
+    border-right: 0;
+}
+.Total-tools-page-header-part1 #Total-tools-header-account .Total-tools-links-ul a
+{
+    font-size: 14px;
+    line-height: 10px !important;
+    letter-spacing: 0px;
+    font-family:"my font 6";
+    color: #294d98;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 10px;
+
+}
+
+
+
+
+/*--todo:part2 --*/
+.nav-for-moblie
+{
+    display: none;
+}
+#search-symbol-for-mobile
+{
+    display: none;
+}
+
+#page-header-part2
+{
+    background-color: #e41b13;
+    font-family: "my font 3";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.6rem;
+
+
+}
+#wrap-page-header-part2 {
+    padding: 24px 20px 2px 20px;
+    margin: 0 auto 0 auto;
+    content: '';
+    display: table;
+    clear: both;
+    color: #333;
+
+    max-width: 1282px;
+    width: 100%;
+    height: 89px;
+}
+
+.divine-child-1
+{
+    float: left;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    bottom:12px;
+}
+.divine-child-2
+{
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    top:3px;
+
+
+
+}
+.divine-child-3
+{
+    float: left;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    top:6px;
+
+}
+.divine-2-1
+{
+    float: left;
+    width: 40%;
+
+}
+.divine-2-2
+{
+    float: left;
+    width: 20%;
+
+
+}
+.divine-2-3
+{
+ float: left;
+    width: 40%;
+}
+#Total-tools-search
+{
+    position: static;
+    padding-right: 35px;
+    margin: 0;
+    background: #c4291a;
+    border: 2px solid #fff;
+
+    width: 85%;
+    line-height: 41px;
+    height: 45px;
+    color: #fff;
+    border-radius: 3px;
+}
+input#Total-tools-search
+{
+    font-family: "my font 3";
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600
+}
+input#Total-tools-search::-webkit-input-placeholder {
+    color:    #fff;
+}
+#search-symbol
+{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    right:8%;
+}
+.divine-child-3 i
+{  font-size:30px;
+    color: #fff;
+    margin: 0 2px;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+
+}
+.divine-child-3 p
+{
+    display: inline-block;
+    font-size:14px;
+    color: #fff;
+    position: relative;
+    top:10px;
+}
+.Total-tools-header-minicart
+{
+    display: inline-block;
+}
+.Total-tools-header-minicart a
+{
+    font-family: "my font 3";
+    background-color: #e41b13;
+    color: #fff;
+}
+
+/*0--todo:end part 2 --*/
+/*-- todo:begin nav --*/
+.page-header-part3
+{
+    width: 100%;
+    z-index:888;
+    background: #294D98;
+    border-top: 1px solid #fff;
+    display: inline-block;
+    color: #333;
+    font-family: "my font 3";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.6rem;
+}
+#wrap-page-header-part3
+{
+    display: block;
+    height: 100% !important;
+    width: 100%;
+}
+#Total-tools-header-nav
+{
+    display: block;
+    width: 100%;
+}
+#Total-tools-nav
+{
+    padding:0 20px 0 20px;
+    margin:0 auto 0 auto;
+    display: block;
+    background: #294d98;
+    font-weight: 700;
+    z-index: 3;
+    width: 100%;
+    max-width: 1282px;
+    text-align: left;
+
+}
+.page-header-part3 ul.Total-tools-nav-primary
+{
+    width: 100%;
+    background: none;
+    display: table;
+
+    z-index: 199;
+    margin:0;
+    padding:0;
+    list-style: none none;
+    font-weight: 700;
+
+}
+.page-header-part3 ul.Total-tools-nav-primary li
+{
+    white-space: nowrap;
+    float: none;
+    display: table-cell;
+    width: 100%;
+}
+.page-header-part3 ul.Total-tools-nav-primary li a
+{
+    width: 100%;
+    letter-spacing: 0.4px;
+    padding: 14px 11px 11px !important;
+    border-left: 1px solid #6f88ba;
+
+    font-size: 16px !important;
+    text-shadow: none;
+    margin-bottom: 0;
+    font-weight: normal;
+
+    font-family:  "my font 2" ;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    outline: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    line-height: 1.5;
+    position: relative;
+}
+.page-header-part3 ul.Total-tools-nav-primary li.nav-12 a
+{
+    border-right:1px solid #6f88ba;;
+    color:red;
+    background-color: #fff;
+    border-bottom:1px solid #294d98 ;
+}
+
+
+.page-header-part3 ul.Total-tools-nav-primary li a:hover
+{
+    background-color: #6f88ba;
+}
+.page-header-part3 ul.Total-tools-nav-primary li.nav-12 a:hover
+{
+
+    text-decoration: none;
+    background-color: #fff;
+}
+/*-- todo:end nav --*/
+.descoration
+{
+    padding:15px;
+    border-bottom:1px solid #E5E5E5;
+    width: 100%;
+    max-width: 1282px;
+    margin: 0 auto 0 auto;
+}
+.descoration a
+{
+    color:  #294D98 ;
+    font-weight: 700;
+    text-align: center;
+    font-family: "my font 4";
+    font-size: 1.4rem;
+
+
+}
+.descoration span
+{
+    color: #294D98 ;
+    font-size: 26px;
+    margin: 0 15px 0 12px;
+}
+.des-wrapper
+{
+padding-left: 40px;
+    margin:0 auto 0 auto;
+}
+.descoration i{
+    position: relative;
+    top:3px;
+}
+/*----------------------------------------------------------------------------- todo:end header--------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*---------------------------footer go here ----------------------------------------------------------*/
+/*-----------todo:top footer ------------*/
+.Total-tools-footer-container
+{
+    font-family: "my font";
+}
+.Total-tools-top-footer
+{
+    width:100%;
+    line-height: 40px;
+
+    max-width: 1282px;
+    margin:0 auto 0 auto!important;
+
+
+}
+.Total-tools-top-footer .Total-tools-block
+{
+    float: left;
+    width:50%;
+    padding-left: 8%;
+    background-color:  #f7f7f7;
+    padding-top:2%;
+    padding-bottom: 2%;
+
+}
+.Total-tools-top-footer .Total-tools-block input
+{
+    width:55%;
+    margin: 0;
+    padding:0;
+    border:1px solid #C0C6CE;
+    border-radius: 3px;
+    height:49px ;
+
+
+}
+.Total-tools-top-footer .Total-tools-block i
+{
+    font-size: 35px;
+    color:#e41b13;
+    margin-right: 15px;
+
+}
+.Total-tools-top-footer .Total-tools-block strong
+{
+    font-size: 24px;
+    color:black;
+
+}
+.Total-tools-top-footer .Total-tools-block button
+{
+    margin:0;
+    padding: 0;
+    border-radius: 0px 5px 5px 0px;
+    border:1px solid #C0C6CE;
+    background-color:#294D98 ;
+    position: relative;
+    right:15px;
+    height: 49px;
+    bottom: 1px;
+
+}
+.Total-tools-top-footer .Total-tools-block button span
+{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding:12px;
+
+}
+
+/*--- location --*/
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-location {
+    padding-bottom: 32px;
+}
+
+
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-location a
+{
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-right:1px solid #999;
+    padding-right:3px;
+    padding-left: 3px;
+    font-family:"my font 3";
+
+
+
+}
+#my-last-links
+{
+    border:none
+}
+.block-content-location
+{
+    position: relative;
+    bottom: 10px;
+
+
+
+
+}
+/*-- end location --*/
+/*-- NEWSLETTER --*/
+.form-subscribe-header label
+{
+    font-weight: 100;
+}
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-subscribe
+{
+
+}
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-subscribe input
+{
+    position: relative;
+    bottom: 18px;
+}
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-subscribe button
+{
+    position: relative;
+    bottom: 19px;
+}
+.Total-tools-top-footer .Total-tools-block.Total-tools-block-subscribe label
+{
+    font-family: "my font 3";
+    position: relative;
+    bottom:10px;
+}
+
+
+/*-- end newsltter --*/
+/*-- middle footer --*/
+.link-wrapper-footer
+{
+    margin:0 auto 0 auto;
+    max-width: 1282px;
+}
+.Total-tools-middle-footer
+{
+    width: 100%;
+
+    background: #294d98;
+    color:#fff;
+    font-size: 18px;
+    letter-spacing:0.025em;
+    font-style:normal;
+    font-weight: 400;
+    line-height: 1.25;
+
+    display: inline-block;
+    clear:both;
+
+
+
+}
+.Total-tools-footer-content
+{
+    width: 100%;
+    padding:16px 4px 16px 21px !important;
+    letter-spacing: 0.15px;
+
+
+
+    overflow: auto;
+    clear: both;
+    max-width: 1282px;
+    margin: 0 auto 0 auto;
+
+
+}
+/*-- left --*/
+.footer_middle_left
+{
+    float:left;
+    width:50%
+}
+.footer_middle_left p{
+    position: relative;
+    top:2px;
+    text-align: left;
+
+}
+.footer_middle_left  a
+{
+    color:#fff;
+}
+.footer_middle_left span
+{
+  color:#fff;
+    font-family: 'my font 2';
+    font-weight: 400;
+
+}
+/*-- right --*/
+.footer_middle_right
+{
+    float:right;
+    width: 50%;
+    text-align: right;
+
+
+}
+.footer_middle_right p
+{
+    position: relative;
+    top:2px;
+    right:25px;
+}
+/*-- footer bottom --*/
+.Total-tools-footer
+{
+    clear: both;
+
+
+
+}
+.Total-tools-footer div.Total-tools-links
+{
+    height: 260px;
+    float: left;
+    width: 25%;
+    font-family: "my font 3";
+    display: block;
+    color:#333;
+    font-style: normal;
+
+
+
+
+
+}
+.Total-tools-footer div.Total-tools-links ul
+{
+
+    list-style-type: none;
+  padding: 0 0 0 50px;
+
+
+
+}
+.Total-tools-footer div.Total-tools-links a
+{
+    color: #333;
+    line-height: 1.5;
+}
+#toggle-for-mobile
+{
+    display: none;
+}
+#toggle-for-mobile-active
+{
+    display: none;
+}
+.Total-tools-footer div.Total-tools-links .Total-tools-block-title
+{
+    margin-bottom:12px;
+    padding: 0 0 0 50px;
+    text-transform: uppercase;
+    display: inline-block;
+
+
+}
+.Total-tools-footer div.Total-tools-links .Total-tools-block-title span
+{
+  letter-spacing: -0.15px;
+
+    color:#333;
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: "my font";
+}
+.Total-tools-footer div.Total-tools-links
+{
+    height: 260px;
+    float: left;
+    width: 25%;
+    font-family: "my font 3";
+    display: block;
+    color:#333;
+    font-style: normal;
+
+
+
+
+
+}
+.Total-tools-footer div.links
+{
+    height: 260px;
+    float: left;
+    width: 25%;
+    font-family: "my font 3";
+    display: block;
+    color:#333;
+    font-style: normal;
+
+
+
+
+
+}
+.Total-tools-footer div.Total-tools-links ul
+{
+
+    list-style-type: none;
+    padding: 0 0 0 50px;
+
+
+
+}
+.Total-tools-footer div.links ul
+{
+
+    list-style-type: none;
+    padding: 0 0 0 50px;
+
+
+
+}
+.Total-tools-footer div.links a
+{
+    color: #333;
+    line-height: 1.5;
+}
+.Total-tools-footer div.links .block-title
+{
+    margin-bottom:12px;
+    padding: 0 0 0 50px;
+    text-transform: uppercase;
+    border: none;
+
+
+
+}
+.Total-tools-footer div.links .block-title span
+{
+    letter-spacing: -0.15px;
+
+    color:#333;
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: "my font";
+
+    line-height: 28px;
+}
+/*-- symblol go here --*/
+
+
+.symbol_list
+{
+    height: 260px;
+    float: left;
+    width: 25%;
+    font-family: "my font 3";
+
+}
+.wrap_symbol_list
+{
+    display: inline-block;
+
+}
+.symbol_list p{
+    color:#333;
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    margin-bottom:12px;
+    padding: 0 0 0 50px;
+    font-family: "my font";
+}
+ul.wrap_symbol_list
+{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 0 0 0 50px;
+    margin: 0;
+    width: 100%;
+
+}
+.symbol_list li
+{
+    display: inline;
+
+
+}
+.wrapper_icon
+{
+    height: 44px ;
+    width: 44px;
+    border-radius: 25px;
+    float: left;
+    margin-right:10px ;
+}
+.wrapper_icon_fa
+{
+    background-color: #36619d;
+}
+.wrapper_icon_insta
+{
+    background-color: #696a6a;
+}
+.wrapper_icon_google
+{
+    background-color: #d95647;
+}
+.wrapper_icon_youtube
+{
+    background-color:#e76550
+}
+.wrapper_icon i#face
+{
+color: #fff;
+    font-size: 26px;
+    position: relative;
+    left: 14px;
+    top:9px;
+
+
+}
+.wrapper_icon i#insta
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    left: 10px;
+    top:9px;
+
+}
+.wrapper_icon i#plus
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    left: 6px;
+    top:9px;
+
+}
+.wrapper_icon i#youtube
+{
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    left: 9px;
+    top:9px;
+}
+.facebooks_like
+{
+    width:66px;
+    height: 20px;
+    background-color: #4267b2;
+    margin-left: 50px ;
+    margin-top:15px;
+    border-radius: 3px;
+}
+#likes
+{
+    color: #fff;
+    margin-left: 5px;
+}
+.facebooks_like p {
+
+}
+
+
+/** copy right --*/
+.wrap-footer-coppy-right
+{
+    background-color: #e41b13 ;
+    width: 100%;
+    height: 92px;
+    clear: both;
+}
+
+.footer-copyright
+{
+    clear: both;
+    background-color: #e41b13;
+    height: 92px;
+    width: 100%;
+    max-width: 1282px;
+    margin:0 auto 0 auto;
+
+}
+.footer-copyright-content
+{
+    clear: both;
+}
+.Total-tools-payments img
+{
+    height: 32px;
+    width: 50px;
+
+}
+.Total-tools-payments img#last
+{
+    width: 111px;
+    height: 54px;
+}
+.Total-tools-copyright
+{
+    margin-left: 55px;
+}
+
+/** copy right left --*/
+
+.Total-tools-copyright
+{
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-family: "Source Sans Pro",Arial;
+    font-size: 14px;
+
+
+
+
+}
+.Total-tools-footer-img
+{
+    position: relative;
+    bottom: 19px;
+    display: inline-block!important;
+}
+
+/**copy right right **/
+.payments-wrapper
+{
+
+
+}
+
+.Total-tools-payments
+{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    top :20px;
+    left: 70px;
+
+
+}
+.Total-tools-payments img
+{
+    display: inline-block;
+}
+
+.Total-tools-payments li {
+    display: inline-block;
+    margin-left: 5px;
+
+}
+ li#Total-tools-first p
+{
+    color: #fff;
+    font-family: "Source Sans Pro",Arial;
+    font-size: 14px;
+}
+/*******************-------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+todo:----------------end the footer ------------------------------------------------------------*/
+/*-- todo:staring login page --*/
+
+.Total-tools-account-login
+{
+    font-family: "my font 3";
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+
+}
+/*-- login title */
+.Total-tools-page-title h1
+{
+    font-family: "my font";
+    color:#333;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 28px;
+}
+.Total-tools-sub-title
+{
+    margin-top:0rem;
+    margin-bottom: 2rem;
+    font-family: "my font 5";
+    font-size:1.5rem;
+    font-style:normal;
+    font-weight: 400;
+}
+/*-- login right --*/
+.Total-tools-col-1.Total-tools-new-users
+{
+    background-color: #fff;
+    margin-bottom: 18px;
+    width:50%;
+    float: right;
+    padding-left: 8px;
+
+}
+.wrap-Total-tools-col-1
+{
+    padding: 20px 32px 40px 32px;
+    border:2px solid #E5E5E5;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.Total-tools-content-title-right
+{
+
+    letter-spacing: -0.3px;
+    padding:0 0 11px 0;
+    margin:0 0 16px 0;
+    border-bottom:1px solid #e5e5e5;
+    color:#333;
+    font-family: "my font" ;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+.Total-tools-content-title-right h2
+{
+    font-size: 1.7rem;
+    font-family: "my font";
+    color: #333;
+
+}
+.Total-tools-form-instructions
+{
+    margin-bottom: 15px !important;
+    font-family: "my font 5";
+    font-size:1.5rem;
+    font-weight: 400;
+
+
+}
+.Total-tools-btn
+{
+    background-image: none;
+    background-color: #294d98 !important;
+    border: 1px solid #173f91;
+    font-family: 'oswald-bold';
+    padding: 11px 20px 8px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.Total-tools-buttons-set
+{
+    margin-top:50px;
+}
+.Total-tools-buttons-set span
+{
+    color:#fff;
+    letter-spacing: -0.26px;
+    cursor: pointer;
+    font-family: "my font";
+    font-weight: 400;
+    font-size:1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    text-rendering: auto;
+
+}
+/*-- login left --*/
+.Total-tools-col-2.Total-tools-registered-users
+{
+    float: left;
+    width: 50%;
+}
+.Total-tools-wrap-col2
+{
+    padding: 20px 32px 40px 32px;
+    border:2px solid #E5E5E5;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.Total-tools-content-title-left
+{
+    letter-spacing: -0.3px;
+    padding:0 0 11px 0;
+    margin:0 0 16px 0;
+    border-bottom:1px solid #e5e5e5;
+    color:#333;
+    font-family: "my font";
+    font-weight: 700;
+    font-size: 1rem;
+}
+.Total-tools-content-title-left h2
+{
+    font-size: 1.7rem;
+    font-family: "my font";
+    color: #333;
+
+}
+/** -- email go here */
+.Total-tools-form-wrapper
+{
+    margin:0 33px 0 33px;
+}
+.Total-tools-input-field
+{
+    margin-bottom:20px;
+    letter-spacing: normal;
+    clear: both;
+}
+.Total-tools-required
+{
+    margin-bottom: 6px;
+    width:100%;
+
+    font-size: 1.6rem;
+    padding:6px 15px 0 0;
+
+}
+.Total-tools-required span
+{
+    text-align: left;
+    color:#666;
+    font-family:"my font 3";
+    font-style:normal;
+    font-size: 1.6rem;
+   font-weight: 400;
+}
+.Total-tools-required em
+{
+    color :red;
+    font-family:"my font 3";
+    font-style:normal;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.Total-tools-input-box
+{
+    width: 74.2%
+
+}
+.Total-tools-input-box input
+{
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family:"my font 3";
+    font-size: 16px;
+    font-weight: 400;
+    height: 47px;
+    line-height: 45px;
+    padding: 0 15px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Total-tools-f-left
+{
+    margin-left: 20px;
+}
+
+/*-- todo:ended login --*/
+/*-- begin registered --*/
+.Total-tools-account-create
+{
+    font-family: "my font 3";
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+/*title use of login */
+.wrap-Total-tools-col-1 ul li
+{
+
+    font-family: "my font 5";
+    font-size:1.5rem;
+    font-weight: 400;
+
+
+}
+/*-- todo:finish registeer --*/
+/*-- todo:password recover --*/
+.Total-tools-recover-wrap
+{
+    margin-left:33px;
+}
+.Total-tools-btn-for-capcha
+{
+    margin-top:20px;
+    background-color: #DCDFE4 !important;
+    border:2px solid #A9ACB0;
+    background-image: none!important;
+
+}
+#for-capchar-only
+{
+    color:#A9ACB0;
+}
+/** todo:end user account **/
+/*todo:start dashboard */
+.Total-tools-dashboard
+{
+
+}
+/* right */
+.Total-tools-welcome-msg
+{
+    border:1px solid #E2DFDF;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 35px;
+
+}
+.Total-tools-welcome-msg-wrap
+{
+    padding:20px 0px 20px 20px;
+}
+.Total-tools-welcome-msg-wrap p#hello-msg
+{
+
+    color: #333;
+
+    font-family: "my font 5";
+}
+.Total-tools-hello
+{
+    color:#333;
+    font-family: "my font";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.Total-tools-box-account.Total-tools-box-info
+{
+    border:2px solid #E2DFDF;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 35px;
+
+}
+.Total-tools-box-account-wrap
+{
+    padding:30px 0px 30px 30px;
+}
+.Total-tools-box-account-wrap h3
+{
+    font-family: "my font" !important;
+    color:#333;
+}
+.Total-tools-box-head
+{
+    width: 95%;
+    border-bottom: 1px solid  #E2DFDF;
+    display: inline-block;
+}
+.Total-tools-box-head a
+{
+    display: inline-block;
+    color: #294d98;
+    margin-left: 28px;
+
+}
+.Total-tools-box-head h3
+{
+    display: inline-block;
+}
+
+.Total-tools-box-account-wrap h4
+{
+    text-transform: none;
+    font-family: "my font 5";
+    color: #333;
+    font-size: 16px;
+}
+.Total-tools-edit-password
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #294d98;
+}
+.Total-tools-edit-password-c
+{
+    color: #294d98;
+    display: inline-block;
+    padding:0 12px 0 0;
+    border-right: 1px solid  #294d98;
+}
+.Total-tools-edit-password-c2
+{
+    color: #294d98;
+    display: inline-block;
+    padding:0 0 0 5px;
+}
+.Total-tools-block-title
+{
+    font-family: "my font 3";
+    color: #333;
+    font-size: 14px;
+}
+.Total-tools-block-content ul
+{
+    text-decoration: none;
+    color:#333;
+}
+.Total-tools-block-content li{
+
+    font-family: "my font 5" !important;
+
+}
+
+.Total-tools-block-content li a{
+    text-transform: none;
+    color: #333 !important;
+}
+.block.block-account
+{
+    border-top:2px solid #E5E5E5 ;
+    border-bottom:2px solid #E5E5E5 ;
+}
+/*compare*/
+.col-left.sidebar
+{
+    border-bottom:1px solid #E5E5E5 ;
+}
+.Total-tools-block-title-2
+{
+    font-family: "my font 4";
+    color: #333;
+    font-size: 16px;
+}
+.Total-tools-block-title-2 small
+{
+    color: #333;
+    margin-left: 5px;
+    font-family: "my font 5";
+
+}
+#symbol-for-remove
+{
+    color:#C7C0C0;
+    font-size: 22px;
+}
+ol#compare-items a{
+    display: inline-block;
+    margin-right: 10px;
+    font-family: "my font 5";
+}
+ol#compare-items p{
+    display: inline-block;
+
+}
+.Total-tools-actions button
+{
+    background-color: #dddddd;
+    border: 1px solid #BDB6B6;
+    border-radius: 2px;
+
+}
+.Total-tools-actions button span
+{
+    font-family: "my font 5";
+    color:#333;
+    text-transform: capitalize;
+}
+.Total-tools-actions a{
+    font-family: "my font 5";
+    margin-left:20px;
+    color: #294d98;
+    border-bottom: 1px solid #dddddd;
+}
+.Total-tools-actions a:hover
+{
+    text-decoration: none;
+}
+/* todo:making account orders */
+.data-table.orders th
+{
+    font-family: "my font 5";
+    text-align: center;
+    margin-top: auto;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding:20px
+}
+.data-table.orders td{
+    font-family: "my font 5";
+    font-style: normal;
+    margin-top: auto;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding:20px
+}
+.a-center.view.last a{
+ display: inline-block !important;
+    font-family: "my font 5";
+    margin:0 20px 0 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+    color:  #294d98;
+
+}
+.a-center.view a
+{
+    display: inline-block !important;
+    font-family: "my font 5";
+}
+.separator
+{
+    display: inline-block!important;
+}
+
+
+
+
+/** ---------------------------------------------------------- *--------------------------------------------
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+/*-- todo:error page do in 404 aerdy --*/
+
+
+/*-- todo: making check out page --*/
+.checkout-onepage-index .col-main
+{
+    width: 100%!important;
+}
+
+
+
+/*------------------------------------------------------------------
+-------------------------------------------------------------------
+------------------------------------------------------------------
+---------------------------------------------------------------------
+-------------------------------------------------------------------
+/*-- Todo:media query--*/
+@media screen and (max-width: 1200px)
+{
+ #location-text
+ {display: none;}
+    #gift-text{
+        display: none;
+    }
+    #here3218401239
+    {
+        display: none;
+    }
+    .page-header-part3 ul.Total-tools-nav-primary li a
+    {
+        font-size: 1vw !important;
+    }
+
+
+
+
+}
+@media screen and (max-width: 790px) {
+    #here0156{
+        display: none!important;
+    }
+    .page-header-part3 ul.Total-tools-nav-primary li a
+    {
+        font-size: 0.9vw !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    #Total-tools-header-nav:hover #submenu-4
+    {
+        display: none!important;
+    }
+     #here0156{
+          display: inline-block!important;
+      }
+    #wrap-page-header-part2 {
+        height: auto;
+    }
+    #Total-tools-search{
+        width: 90%!important;
+
+    }
+
+    .Total-tools-logo-small {
+
+        width: 192px;
+        height: 34px;
+        display: inline-block !important;
+        position: relative;
+        bottom: 5px;
+    }
+
+    #nav-symbol-moblie {
+        color: #fff;
+        display: block;
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .nav-for-moblie {
+        display: inline-block;
+        width: 30px;
+    }
+
+    .nav-for-moblie ul {
+        display: none;
+        z-index: 1000;
+        background-color: rgb(23, 63, 145);
+
+        top: 30px;
+        border: 1px solid #5670a6;
+        border-radius: 2px 2px 2px 2px;
+        width: 50%;
+        position: absolute;
+        list-style: none none;
+        right: 350px;
+
+    }
+
+    .nav-for-moblie ul li a {
+        letter-spacing: 0.4px;
+        padding: 14px 11px 11px !important;
+        border-left: 1px solid #6f88ba;
+        border-right: 1px solid #6f88ba;
+        border-bottom: 1px solid #6f88ba;
+        font-size: 16px;
+        text-shadow: none;
+        margin-bottom: 0;
+        font-weight: normal;
+
+        font-family: "my font 2";
+        color: #fff;
+        display: block;
+        width: 100%;
+        text-align: center;
+        outline: none !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        line-height: 1.5;
+        position: relative;
+
+    }
+
+    .nav-for-moblie:hover ul {
+        display: block;
+    }
+
+    .Total-tools-logo-large {
+        display: none;
+    }
+
+    .Total-tools-page-header-part1 {
+        display: none;
+    }
+
+    .page-header-part3 {
+        display: none;
+    }
+
+    .descoration {
+        display: none;
+
+    }
+
+    #Total-tools-search {
+        display: none;
+    }
+
+    #page-header-part2 p {
+        display: none;
+    }
+
+    #wrap-page-header-part2 {
+        margin: 0;
+        padding: 10px 18px 10px 18px;
+    }
+
+    .divine-child-1 {
+        position: static;
+        width: 75%;
+        clear: both;
+        float: left;
+    }
+
+    .divine-child-2 {
+        display: none;
+        width: 100%!important;
+    }
+
+    .divine-child-3 .divine-2-1 {
+        display: none;
+    }
+
+    .divine-child-3 .divine-2-2 {
+        display: none;
+    }
+
+    .divine-child-3 .divine-2-3 {
+
+        float: right;
+
+    }
+    .divine-dad
+    {
+        width: 100%;
+    }
+
+
+    .divine-child-3
+    {
+
+        position: static;
+        width: 25%;
+
+        float: left;
+    }
+    .divine-child-3 .divine-2-3 span.label
+    {
+        display: none!important;
+    }
+    {
+
+    }
+    .skip-link
+    {
+        float: none!important;
+    }
+    .Total-tools-minicart-wrapper
+    {
+        position: absolute;
+        right:10px;
+        border: 1px solid #333;
+        background-color: #ffffff ;
+    }
+     .Total-tools-minicart-wrapper .minicart-actions#here123
+     {
+     margin-left: 45px!important;
+     }
+
+
+
+    #search-symbol-for-mobile
+    {
+        display: inline-block;
+        color: #fff;
+        font-size: 27px;
+        float: right;
+        position: absolute;
+        left: 80%;
+
+    }
+    /*todo:minicart*/
+    a.Total-tools-close.Total-tools-skip-link-close
+    {
+        background-color: #fff !important;
+        color: #E5E5E5 !important;
+        font-size: 40px !important;
+    }
+
+
+
+
+    /*todo:end header */
+    /*todo:footer */
+
+    .Total-tools-block.Total-tools-block-subscribe
+    {
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .Total-tools-block.Total-tools-block-location
+    {
+       width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    .Total-tools-block.Total-tools-block-location .input-box-location input
+    {
+        display: none;
+
+    }
+    .Total-tools-block.Total-tools-block-location .input-box-location button
+    {
+        border-radius:5px ;
+
+    }
+    .footer_middle_left
+    {
+        float: left;
+        width: 100%;
+
+    }
+    .footer_middle_right
+    {
+        display: none;
+    }
+    .Total-tools-footer div.links{
+        float: left;
+        width:100%;
+        height: auto;
+    }
+    .Total-tools-footer div.Total-tools-links {
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+   .links ul
+    {
+        display: none;
+
+    }
+    ul.Total-tools-links-ul
+    {
+        display: none;
+    }
+
+    .symbol_list
+    {
+        float: left;
+        width:100%;
+    }
+
+    .Total-tools-footer div.links span
+    {
+        border-top: 2px solid #ccc;
+    }
+    .Total-tools-footer div.Total-tools-links span
+    {
+        border-top: 2px solid #ccc;
+    }
+    .Total-tools-footer-img
+    {
+        display: none;
+    }
+    .Total-tools-copyright
+    {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #Total-tool-first
+    {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    .Total-tools-block-title
+    {
+        width: 100%;
+
+    }
+    #toggle-for-mobile
+    {
+        display: inline-block;
+        float: right;
+        color: #294d98;
+        position: relative;
+        right: 20px;
+
+    }
+    #toggle-for-moblie-up
+    {
+        display: none;
+        float: right;
+        color: #294d98;
+        position: relative;
+        right: 20px;
+    }
+    #toggle-for-mobile-active
+    {
+        display: none;
+        float: right;
+        color: #294d98;
+        position: relative;
+        right: 20px;
+    }
+    .Total-tools-block-title span{
+
+
+    }
+
+
+
+
+
+
+}
+/*todo:media for phone */
+@media screen and (max-width:481px)
+{
+    .Total-tools-top-footer .Total-tools-block.Total-tools-block-subscribe button {
+        position: relative;
+        bottom: 20px;
+    }
+    .Total-tools-payments
+    {
+        left: 0!important;
+    }
+    .divine-child-1{
+        width: 60%;
+    }
+    .divine-child-3{
+        width: 40%;
+    }
+    .skip-cart.no-count .count
+    {
+        left: 10px;
+    }
+    .divine-child-1 i#search-symbol-for-mobile{
+        position: absolute!important;
+        left: 350px;
+    }
+    span#here0156
+    {
+        left: 8px;
+    }
+    .footer-copyright-content .Total-tools-copyright
+    {
+        display: none;
+    }
+    li#Total-tools-first
+    {
+       width: 90%;
+
+
+    }
+    li#Total-tools-first p{
+        position: relative;
+        left: 105px;
+        max-width: 140px;
+        margin-right: 0!important;
+        display: none;
+    }
+    li#Total-tools-first-1
+    {
+        display: inline-block!important;
+
+        color: #fff;
+        font-family: "Source Sans Pro",Arial;
+        font-size: 14px;
+    }
+    li#Total-tools-first-1 p
+    {
+        position: relative;
+        left: 140px;
+    }
+    ul.Total-tools-payments
+    {
+        top:0;
+    }
+    .footer-copyright
+    {
+        height: auto!important;
+    }
+    li#last-symble-for-moblie-123142314
+    {
+        width: 90%;
+        position: relative;
+
+    }
+    li#last-symble-for-moblie-123142314 img
+    {
+        position: relative;
+        left: 185px;
+    }
+    li.visa
+    {
+       position: relative!important;
+        left:120px
+    }
+    li.master
+    {
+        position: relative!important;
+        left:120px
+    }
+    li.paypal
+    {
+        position: relative!important;
+        left:120px
+    }
+    li.amex
+    {
+        position: relative!important;
+        left:120px
+    }
+
+
+
+}
+/* *******************************************************/
+@media screen and (max-width:412px)
+{
+    li#Total-tools-first-1 p
+    {
+        position: relative;
+        left: 55px;
+    }
+    li.visa
+    {
+        position: relative!important;
+        left:50px
+    }
+    li.master
+    {
+        position: relative!important;
+        left:50px
+    }
+    li.paypal
+    {
+        position: relative!important;
+        left:50px
+    }
+    li.amex
+    {
+        position: relative!important;
+        left:50px
+    }
+    li#last-symble-for-moblie-123142314 img
+    {
+        position: relative;
+        left: 110px;
+    }
+    .Total-tools-logo-small
+    {
+        left: 15px !important;
+        bottom: 17px !important;
+    }
+    #search-symbol-for-mobile
+    {
+        left: 290px;
+        bottom: 390px;
+    }
+
+}
+/*******************************************************************/
+@media screen and (max-width:340px)
+{
+    #here0156
+    {
+        display: none!important;
+    }
+}
+

@@ -1,0 +1,33 @@
+.crosssell-tt{
+    margin-bottom: 50px;
+}
+.crosssell-tt .price-box p {
+    margin-bottom: 0;
+    display: inline-block;
+}
+.crosssell-tt .product-info{
+    text-align: center;
+    font-family: proxima-nova-condensed-medium;
+}
+.crosssell-tt .product-name a{
+    font-family: proxima-nova-condensed-medium;
+    color: #333333;
+}
+.crosssell-tt .product-image {
+    border: none;
+}
+#crosssell-products-list .item{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+#crosssell-products-list .item:hover{
+    border: 2px solid #0A246A;
+    box-sizing: border-box;
+}
+.shipping-tt{
+    font-family: proxima-nova-regular;
+}
+.button-set .button2 span {
+    color: #0A246A !important;
+}

@@ -1,0 +1,64 @@
+#onestepcheckout_orderform .col3-set .col-1 {
+    width: 30%;
+}
+#onestepcheckout_orderform .col3-set .col-2 {
+    width: 30%;
+    margin-left: 4%;
+}
+#onestepcheckout_orderform .col3-set .col-3
+{
+    width: 30%;
+    margin-left: 4%;
+
+
+
+}
+.op_block_title
+{
+    letter-spacing: -0.8px;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    font-size: 2.8rem!important;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    font-family: "my font"!important;
+    border-bottom: 1px solid #ccc!important;
+    color: #333;
+    font-weight: 300
+}
+.short.name-middlename
+{
+    display: none;
+}
+.data_area input
+{
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: "my font 3";
+    height: 40px !important;
+    padding: 0 15px !important;
+    vertical-align: baseline;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.short.name-firstname
+{
+    width: 100%!important;
+}
+.short.name-lastname
+{
+    width: 100%!important;
+}
+label.required:after
+{
+    color: #333!important;
+}
+.check-out-email-wrapper
+{  padding-bottom:12px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
